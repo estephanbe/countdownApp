@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Countdown</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="app.css">
+  
+</head>
+
+<body>
+
+  
+
+  
+	<nav class="navbar navbar-dark bg-dark">
+		<span class="navbar-brand">Custom Countdown</span>
+		<div id="navRight" class="form-inline">
+		
+			<div id="input_container">
+				<span class="navbar-text">Countdown these</span>
+				<input id="timeInSec" type="number" min="1">
+				<span class="navbar-text">seconds</span>
+	
+				<span class="navbar-text">for</span>
+				<input id="NumOfTime" type="number" min="1">
+				<span class="navbar-text">times.</span>
+			</div>
+			
+			<button id="start" class="btn btn-outline-success my-2 my-sm-0" disabled>Start</button>
+			<button id="pause" class="btn btn-outline-success my-2 my-sm-0">Pause</button>
+			<button id="reset" class="btn btn-outline-success my-2 my-sm-0" disabled>Reset</button>
+			
+			
+		</div>
+	</nav>
+	
+	<div id="countdown_area" class="container">
+	
+		<div id="countdown_time">
+			Fill the values and press start!
+		</div>
+	
+	</div>
+  
+  
+  
+  
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

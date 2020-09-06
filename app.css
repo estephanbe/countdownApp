@@ -1,0 +1,41 @@
+body{
+	background-color: #416486;
+	max-height: 100vh;
+}
+
+#navRight {
+	width: auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#input_container {
+	width: 60%;
+}
+
+#timeInSec {
+	width: 15%;
+}
+
+#NumOfTime {
+	width: 10%;
+}
+
+#reset{
+	margin-left: 1rem;
+}
+
+#countdown_area{
+	color: #fff;
+	font-size: 8rem;
+	height: 90%;
+	max-height: 70vh;
+}
+
+#countdown_time{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
